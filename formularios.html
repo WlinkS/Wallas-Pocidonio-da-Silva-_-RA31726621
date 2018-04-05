@@ -2,86 +2,84 @@
  <head>
   <title>Formulario</title>
    </head>
-<style>
-body {
+
+    <style>
+     body {
     background-image: url("img/paper.jpg");
-}
-</style>
-    
-    <body>
-        <div style="padding:10px;position:absolute;"></div>
+           }
+   </style>    
+  
+  <body>
+<form>
+<div align="center" style="vertical-align: middle;">
+ <p style="font-size:90px;">Formulário de Cadastro</p></div>     
+  <div align="center" style="vertical-align: middle;">
+   <p style="font-size:50px;">Preencha o Formulário abaixo para que passamos criar seu Cadastro</p>
+    <p>Campos Obrigatórios *</p></div>
 
-     <form>
-     <p style="font-size:90px;">Formulário de Cadastro</p>
-
-    <p style="font-size:50px;">Preencha o Formulário abaixo para que passamos criar seu Cadastro</p>
-    <p>Campos Obrigatórios *</p>
-	
-     
-     <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationServer01"> * Nome</label>
-      <input type="text" size="30" class="form-control is-valid" id="validationServer01" placeholder="Digite seu  Nome" value="" required>
-      <div class="valid-feedback"></div></div><br /> 
-
-
+     <div align="center" style="vertical-align: middle;">
     <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationServer01"> * Sobrenome</label>
-      <input type="text" size="25" class="form-control is-valid" id="validationServer01" placeholder="Digite seu Sobrenome" value="" required>
-      <div class="valid-feedback"></div></div><br /> 
+   <div class="col-md-4 mb-3">
+  <label for="validationServer01"> * Nome</label>
+ <input type="text" size="30" class="form-control is-valid" id="validationServer01" placeholder="Digite seu  Nome" value="" required>
+<div class="valid-feedback"></div></div></div><br /> 
 
 <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationServer01"> * Nascimento</label><input id="date" type="date"></div></div><br />
+ <div class="col-md-4 mb-3">
+  <label for="validationServer01"> * Sobrenome</label>
+   <input type="text" size="25" class="form-control is-valid" id="validationServer01" placeholder="Digite seu Sobrenome" value="" required>
+    <div class="valid-feedback"></div></div><br /> 
 
-
+     <div class="form-row">
+      <div class="col-md-4 mb-3">
+     <label for="validationServer01"> * Nascimento</label><input id="date" type="date"></div></div><br />
    
      <div class="form-row">
     <div class="col-md-4 mb-3">
-      <label for="validationServer01"> * Identidade </label> 
-      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Digite sua  Identidade" value="" required>
-      <div class="valid-feedback"></div></div><br /> 
+   <label for="validationServer01"> * Identidade </label> 
+  <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Digite sua  Identidade" value="" required>
+<div class="valid-feedback"></div></div><br /> 
 
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationServer01"> * CPF</label><input type="text" size="28" placeholder="digite seu CPF" size="13" maxlength="13" /></div></div><br />
+<div class="form-row">
+ <div class="col-md-4 mb-3">
+  <label for="validationServer01">* CPF</label><input type="text" size="28" placeholder="digite seu CPF" size="13" maxlength="13"/></div></div><br />
 
- <div class="form-row">
-    <div class="col-md-4 mb-3">
+    <div class="form-row">
+     <div class="col-md-4 mb-3">
       <label for="validationServer01"> * SEXO</label>
- <input type="radio" name="Sexo"> Masculino &nbsp;&nbsp;&nbsp;
-<input type="radio" name="Sexo">Feminino<br />
+       <input type="radio" name="Sexo"> Masculino &nbsp;&nbsp;&nbsp;
+      <input type="radio" name="Sexo">Feminino<br />
  
 
- <div class="form-group">
-  <label for="validationServer01"> * Estado Civil</label>
-    <select class="custom-select" required>
-     
-      <option value="">Escolha no Menu</option>
-      <option value="1">Solteiro (a)</option>
-      <option value="2">Casado (a)</option>
-      <option value="3">Viuvo (a)</option>
-    </select> </div><br />
+     <div class="form-group">
+    <label for="validationServer01"> * Estado Civil</label>
+   <select class="custom-select" required>     
+  <option value="">Escolha no Menu</option>
+ <option value="1">Solteiro (a)</option>
+<option value="2">Casado (a)</option>
+ <option value="3">Viuvo (a)</option>
+  </select> </div><br />
+
+    <div>
+     <label for="validationServer01"> * DDD : </label><input type="text" size="2" class="form-control is-valid" id="validationServer01" placeholder="DDD" value="" required/>
+     <label for="validationServer01"> * Telefone : </label><input type="text" size="30" class="form-control is-valid" id="validationServer01" placeholder="Digite seu Telefone"  value="" required/><br />
+    </div>
+   
+   <dir>
+  <label for="validationServer01">  Email : </label><input type="text" size="50" placeholder="Digite seu Email"/><br />
+ </dir>
+  
+
+<div class="form-row">
+ <div class="col-md-4 mb-3">
+  <label for="validationServer01"> * Endereço Completo</label>
+   <input type="text"  size="100"  class="form-control is-valid" id="validationServer01" placeholder="Digite seu  Endereço Completo" value="" required>
+     <div class="valid-feedback"></div></div><br /> <br />
 
 
-      DDD:<input type="text" size="2" placeholder=""/>
-     Telefone:<input type="text" size="30" placeholder="Digite seu Telefone"/><br />
-
-    Email:<input type="text" size="50" placeholder="Digite seu Email"/><br />
-
-   <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationServer01"> * Endereço Completo</label>
-      <input type="text"  size="100"  class="form-control is-valid" id="validationServer01" placeholder="Digite seu  Endereço Completo" value="" required>
-      <div class="valid-feedback"></div></div><br /> <br />
-
-
-  <input type="submit" name="enviar" value="Enviar" /></br>
- <input type="reset" name="reset" size="10" value="Limpar"></br>
-</form>
-</div>
-
-
-</body>
+     <input type="submit" name="enviar" value="Enviar" /></br>
+    <input type="reset" name="reset" size="10" value="Limpar"></br>
+   </form>
+  </div>
+ </body>
 </html>
